@@ -1,0 +1,525 @@
+body {
+    /* border: 1px solid #EDEDED; */
+}
+
+.t2 {
+    color: #00A5EC;
+    margin-left: 8px;
+}
+
+.t1 {
+    color: black;
+}
+
+.nav {
+    font-weight: bold;
+    display: flex;
+
+    font-size: 32px;
+    padding-left: 230px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.content {
+    background-color: #EDEDED;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    margin-top: 4px;
+    margin-left: 100px;
+    box-shadow: inset 0px 5px 10px 5px rgb(211, 206, 206);
+    margin-right: 100px;
+    margin-bottom: 300px;
+    padding-bottoms: 10px;
+
+}
+
+.new {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.add {
+    padding: 4px;
+    background-color: #00A5EC;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+}
+
+.newText {
+    font-size: 24px;
+    height: 80px;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 180px;
+    color: black;
+    text-align: center;
+}
+
+.box1 {
+
+
+    background-color: white;
+    height: 300px;
+    width: 305px;
+    border: 1px solid rgb(251, 249, 245);
+    color: #00A5EC;
+
+    font-size: large;
+    border-radius: 5px;
+    margin: 25px;
+
+}
+
+.title {
+    padding-left: 30px;
+    padding-top: 25px;
+    color: #00A5EC;
+    padding-bottom: 10px;
+}
+
+.greybox {
+    height: 40px;
+    width: 40px;
+    /* background-color: grey; */
+
+}
+
+.greybox2 {
+    height: 40px;
+    width: 40px;
+    /* background-color: #F7F7F7; */
+
+
+}
+
+.line1 {
+    display: flex;
+    padding-left: 30px;
+}
+
+.line2 {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.line1text {
+    color: #C2C2C2;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.line2text {
+    color: black;
+    padding-top: 10px;
+
+    padding-left: 10px;
+
+}
+
+.allbox {
+    margin-bottom: 150px;
+
+}
+
+.control,
+.control2 {
+    margin-left: 80px;
+    display: flex;
+
+}
+
+input {
+    height: 40px;
+    width: 40px;
+
+    background-color: #C2C2C2;
+}
+
+input1 {
+    background-color: #F7F7F7;
+}
+
+.box1:hover {
+    box-shadow: 0px 0px 10px #C2C2C2;
+    ;
+}
+
+.parentsecondpage {
+    filter: blur(5px);
+    /* background-color: grey; */
+}
+
+.secondpage {
+    width: 350px;
+    position: relative;
+    bottom: 1100px;
+    font-size: 24px;
+    height: 230px;
+    padding: 4px;
+    border-radius: 15px;
+    left: 500px;
+    background-color: white;
+
+}
+
+.sline1 {
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+}
+
+.secondin {
+    width: 90%;
+    position: relative;
+    margin: 10px;
+}
+
+.sbottom {
+    background-color: #00A5EC;
+    font-size: 18px;
+    justify-content: end;
+    width: 170px;
+    padding: 10px;
+    position: relative;
+    left: 140px;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    height: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sendbotton {
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+.thContent {
+    width: 50%;
+    position: relative;
+    left: 300px;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    /* border: 2px solid black; */
+}
+
+.thback {
+    font-size: 24px;
+    height: 80px;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 180px;
+    color: black;
+    text-align: center;
+}
+
+.thnew {
+    position: relative;
+    top: 0;
+}
+
+.thbox1 {
+    position: relative;
+    left: 330px;
+    margin-top: -10px;
+    height: 300px;
+    margin-bottom: 300px;
+    width: 460px;
+}
+
+.forthpage {
+    width: 455px;
+    position: relative;
+    bottom: 920px;
+    font-size: 24px;
+    height: 220px;
+    padding: 4px;
+    border-radius: 15px;
+    left: 485px;
+    background-color: white;
+
+}
+
+.forthbotton {
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.forbottoncontrol {
+
+
+    background-color: #00A5EC;
+    font-size: 18px;
+    justify-content: end;
+    width: 170px;
+    padding: 10px;
+    position: relative;
+    left: 240px;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    height: 22px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+/* MOBILE VIEW */
+
+@media (max-width:520px) {
+
+    .nav {
+        font-weight: bold;
+        display: flex;
+
+        font-size: 22px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .content {
+        background-color: #EDEDED;
+
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        margin-top: 0px;
+        margin-left: 0px;
+        box-shadow: inset 0px 0px 10px 5px rgb(211, 206, 206);
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 2px;
+
+
+    }
+
+  
+
+    .add {
+        padding: 4px;
+        background-color: #00A5EC;
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+    }
+
+    .newText {
+
+        display: none;
+
+    }
+
+    .box1 {
+
+
+        background-color: white;
+        height: 225px;
+        width: 235px;
+        border: 1px solid rgb(251, 249, 245);
+        color: #00A5EC;
+
+        font-size: large;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+   
+   
+
+    .allbox {
+        margin-bottom: 50px;
+
+    }
+
+    .control,
+    .control2 {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    /* index2.html  */
+    .parentsecondpage {
+        filter: blur(5px);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -2px;
+        /* justify-content: center;
+        align-items: center;
+        justify-items: center; */
+
+    }
+
+    .formedia {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        left: -2px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .secondpage {
+        width: 210px;
+        position: relative;
+        bottom: 700px;
+        font-size: 14px;
+        justify-content: start;
+        height: 230px;
+        padding: 4px;
+        border-radius: 15px;
+        left: 5px;
+        background-color: white;
+
+    }
+
+    .sline1 {
+        justify-content: space-between;
+        display: flex;
+        padding: 15px;
+    }
+
+    .secondin {
+        width: 90%;
+        position: relative;
+        margin: 10px;
+    }
+
+    .sbottom {
+        background-color: #00A5EC;
+        font-size: 14px;
+        justify-content: end;
+        width: 70px;
+        padding: 10px;
+        position: relative;
+        left: 115px;
+        justify-content: end;
+        align-items: end;
+        color: white;
+        height: 10px;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sendbotton {
+        justify-content: flex-end;
+        align-items: end;
+
+    }
+
+    /* index3.html */
+
+
+    .thContent {
+        width: 65%;
+        position: relative;
+
+        left: 0px;
+        display: flex;
+        /* justify-items: center; */
+        /* justify-content: space-between; */
+        top: 10px;
+
+    }
+
+    .thback {
+        font-size: 24px;
+        height: 80px;
+        padding-left: 15px;
+
+        padding-top: 10px;
+        text-decoration: none;
+        /* width: 180px; */
+        color: black;
+        /* text-align: center; */
+    }
+
+    .thnew {
+        position: relative;
+        top: 0;
+    }
+
+    .thbox1 {
+        position: relative;
+        left: 20px;
+        margin-top: -10px;
+        height: 225px;
+
+        /* margin: 0px auto 300px auto; */
+        margin-bottom: 300px;
+        width: 65%;
+    }
+
+    .fornewmedia {
+        display: flex;
+        justify-content: center;
+        margin-left: 3vw;
+        margin-right: -3vw;
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+
+    .formedia3 {
+        position: relative;
+        left: -1px;
+        right: -200px;
+    }
+
+    .sub3,
+    .sub5 {
+        display: none;
+    }
+
+    .new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
+        padding-left: 45px !important;
+        text-decoration: none;
+
+    }
+
+}
